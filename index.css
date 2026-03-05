@@ -57,10 +57,7 @@ body {
     height: 50px;
     width: 30%;
     max-width: calc(30% - 20px);
-}
-
-.menu-toggle {
-    display: none;
+    
 }
 
 .header-right {
@@ -220,11 +217,11 @@ h1 {
 
 /* Section 3 - Story */
 .cont-3 {
-    margin-top: 50px;
+    margin-top: 20px;
     width: 90%;
     max-width: calc(90% - 20px);
     margin-left: 5%;
-    padding: 50px 0;
+    padding: 0px 0;
     box-sizing: border-box;
 }
 
@@ -858,7 +855,7 @@ textarea {
     font-size: 1rem;
     font-family: 'Philosopher', sans-serif;
     line-height: 1.6;
-    margin-top: -15%;
+    
 }
 
 .details2 {
@@ -1000,31 +997,10 @@ textarea {
         text-align: center;
     }
     
-    .menu-toggle {
-        display: block;
-        font-size: 2rem;
-        cursor: pointer;
-        position: absolute;
-        top: 20px;
-        right: 20px;
-    }
-
     .header-right {
-        display: none;
         flex-direction: column;
         gap: 10px;
         margin-top: 15px;
-        background-color: white;
-        padding: 20px;
-        position: absolute;
-        top: 70px;
-        left: 0;
-        width: 100%;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-    
-    .header-right.active {
-        display: flex;
     }
     
     a {
